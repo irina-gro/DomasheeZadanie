@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
 public class klass {
 
@@ -7,8 +7,6 @@ public class klass {
 
 	System.out.println("Задание 1.");
 		Scanner vvod = new Scanner (System.in);
-		System.out.print("\n");
-		System.out.println("Задание 7");
 		System.out.println("Введите слово: ");
 		String  slog = vvod.next();
          for(int i = 0; i < slog.length(); i++){ 
@@ -31,6 +29,6 @@ public class klass {
         			}
          }
      }
-  }
+  
 
 
