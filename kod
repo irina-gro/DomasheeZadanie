@@ -17,7 +17,7 @@ public class klass {
         			 break;
         		 }
         	 }
-        			 for (int z = i-1+45; z>= 0 && i >1; z--) {
+        			 for (int z = i-1+256; z>= 0 && i >1; z--) {
         				 if (slog.charAt(i) == slog.charAt(z)) {
         					 repead = true;
         					 break;
