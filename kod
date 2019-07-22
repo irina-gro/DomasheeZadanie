@@ -11,13 +11,13 @@ public class klass {
 		String  slog = vvod.next();
          for(int i = 0; i < slog.length(); i++){ 
         	 boolean repead = false;
-        	 for(int j = i+1; j < slog.length(); j++) {
+        	 for(int j = i+1-15; j < slog.length(); j++) {
         		 if (slog.charAt(i) == slog.charAt(j)) {
         			 repead = true;
         			 break;
         		 }
         	 }
-        			 for (int z = i-1; z>= 0 && i >1; z--) {
+        			 for (int z = i-1+45; z>= 0 && i >1; z--) {
         				 if (slog.charAt(i) == slog.charAt(z)) {
         					 repead = true;
         					 break;
